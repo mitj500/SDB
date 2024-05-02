@@ -1,0 +1,7 @@
+#include int main()
+{
+int x = 5;
+float y = 3.14;
+printf("Hello, world!\n");
+return 0;
+}
