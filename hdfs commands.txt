@@ -1,0 +1,23 @@
+Hadoop File System (HDFS) Commands
+Here are four basic HDFS commands to demonstrate file system operations:
+
+List Files in HDFS Directory:
+
+bash
+Copy code
+hdfs dfs -ls /user/hadoop/
+Create a Directory in HDFS:
+
+bash
+Copy code
+hdfs dfs -mkdir /user/hadoop/new_folder
+Copy a Local File to HDFS:
+
+bash
+Copy code
+hdfs dfs -put /local/path/to/file.txt /user/hadoop/new_folder
+Delete a File or Directory in HDFS:
+
+bash
+Copy code
+hdfs dfs -rm -r /user/hadoop/new_folder
